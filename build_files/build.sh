@@ -11,7 +11,7 @@ DOCUMENTATION_URL="https://github.dev/gp-Airee/lznx"
 SUPPORT_URL="https://github.dev/gp-Airee/lznx/issues/"
 BUG_SUPPORT_URL="https://github.dev/gp-Airee/lznx/issues/"
 CODE_NAME="stable"
-CURRENT_DATE=`date +"%Y%m%d`
+CURRENT_DATE=`date +"%Y%m%d"`
 VERSION="00.${CURRENT_DATE}"
 
 IMAGE_INFO="/usr/share/ublue-os/image-info.json"
