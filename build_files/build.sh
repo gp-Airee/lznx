@@ -2,6 +2,9 @@
 
 set -oue pipefail
 
+# remove plymouth text
+sed -i 's/label-freetype.so/label-freetype-meowmeowmeowmeow.so/g' /usr/libexec/plymouth/plymouth-populate-initrd
+
 # regenerate initramfs 
 
 KERNEL_SUFFIX=""
