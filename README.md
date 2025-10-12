@@ -1,3 +1,3 @@
 ```bash
-sudo bootc switch ghcr.io/gp-airee/lznx:latest
+sudo bootc switch -enforce-container-sigpolicy ghcr.io/gp-airee/lznx:latest
 ```
