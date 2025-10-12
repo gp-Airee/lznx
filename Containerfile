@@ -1,7 +1,7 @@
 FROM scratch AS ctx
 COPY build_files /
 
-FROM ghcr.io/ublue-os/aurora:stable
+FROM ghcr.io/ublue-os/bazzite:stable
 COPY system_files /
 
 ARG AKMODS_FLAVOR="coreos-stable"

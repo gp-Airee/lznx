@@ -108,7 +108,7 @@ jobs:
       - name: FROM update for Nvidia
         id: nvidia
         run: |
-          sed -i 's/aurora:stable/aurora-nvidia:stable/g' ./Containerfile
+          sed -i 's/bazzite:stable/bazzite-nvidia:stable/g' ./Containerfile
 
       - name: Build Image
         id: build_image

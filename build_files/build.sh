@@ -11,7 +11,8 @@ DOCUMENTATION_URL="https://github.dev/gp-Airee/lznx"
 SUPPORT_URL="https://github.dev/gp-Airee/lznx/issues/"
 BUG_SUPPORT_URL="https://github.dev/gp-Airee/lznx/issues/"
 CODE_NAME="stable"
-VERSION="${VERSION:-00.00000000}"
+CURRENT_DATE=`date +"%Y%m%d`
+VERSION="00.${CURRENT_DATE}"
 
 IMAGE_INFO="/usr/share/ublue-os/image-info.json"
 IMAGE_REF="ostree-image-signed:docker://ghcr.io/$IMAGE_VENDOR/$IMAGE_NAME"
