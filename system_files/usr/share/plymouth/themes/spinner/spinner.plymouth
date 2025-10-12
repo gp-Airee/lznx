@@ -52,8 +52,8 @@ Transition=none
 TransitionDuration=0.0
 BackgroundStartColor=0xfd9aac
 BackgroundEndColor=0xfd9aac
-ProgressBarBackgroundColor=0x606060
-ProgressBarForegroundColor=0xffffff
+ProgressBarBackgroundColor=0xffffff
+ProgressBarForegroundColor=0x000000
 MessageBelowAnimation=true
 
 [boot-up]

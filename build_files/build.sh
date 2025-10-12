@@ -35,6 +35,7 @@ cat >$IMAGE_INFO <<EOF
   "base-image-name": "$BASE_IMAGE_NAME",
   "fedora-version": "$FEDORA_MAJOR_VERSION"
 }
+
 EOF
 
 # OS Release File
