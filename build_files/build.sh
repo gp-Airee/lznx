@@ -66,8 +66,9 @@ echo "IMAGE_VERSION=\"${VERSION}\"" >> /usr/lib/os-release
 sed -i "s|^EFIDIR=.*|EFIDIR=\"fedora\"|" /usr/sbin/grub2-switch-to-blscfg
 
 
-# remove plymouth text
+# plymouth tweaks
 sed -i 's/label-freetype.so/label-freetype-meowmeowmeowmeow.so/g' /usr/libexec/plymouth/plymouth-populate-initrd
+plymouth-set-default-theme spinner
 
 # regenerate initramfs 
 
