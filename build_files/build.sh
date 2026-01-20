@@ -73,7 +73,7 @@ sed -i 's/label-freetype.so/label-freetype-meowmeowmeowmeow.so/g' /usr/libexec/p
 plymouth-set-default-theme spinner
 
 # teamviewer
-rpm -i https://download.teamviewer.com/download/linux/teamviewer-host_amd64.deb
+rpm -i https://download.teamviewer.com/download/linux/teamviewer-host.x86_64.rpm
 
 # regenerate initramfs 
 
