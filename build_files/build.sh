@@ -72,6 +72,9 @@ sed -i "s|^EFIDIR=.*|EFIDIR=\"fedora\"|" /usr/sbin/grub2-switch-to-blscfg
 sed -i 's/label-freetype.so/label-freetype-meowmeowmeowmeow.so/g' /usr/libexec/plymouth/plymouth-populate-initrd
 plymouth-set-default-theme spinner
 
+# teamviewer
+rpm -i https://download.teamviewer.com/download/linux/teamviewer-host_amd64.deb
+
 # regenerate initramfs 
 
 KERNEL_SUFFIX=""
